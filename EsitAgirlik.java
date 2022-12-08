@@ -1,6 +1,6 @@
 package generickonusu;
 
-public class EsitAgirlik extends Aday{
+public class EsitAgirlik extends Adaylar {
 
     public EsitAgirlik(int turkce, int matematik, int edebiyat, int fizik, String isim) {
         super(turkce, matematik, edebiyat, fizik, isim);

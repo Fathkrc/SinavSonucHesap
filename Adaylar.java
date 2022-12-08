@@ -1,13 +1,13 @@
 package generickonusu;
 
-public abstract class Aday {
+public abstract class Adaylar {
     private int turkce;
     private int matematik;
     private int edebiyat;
     private int fizik;
     private String isim;
 
-    public Aday(int turkce, int matematik, int edebiyat, int fizik,String isim) {
+    public Adaylar(int turkce, int matematik, int edebiyat, int fizik, String isim) {
         this.turkce = turkce;
         this.matematik = matematik;
         this.edebiyat = edebiyat;
